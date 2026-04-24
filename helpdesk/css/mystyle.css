@@ -1,0 +1,80 @@
+<style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenavl {
+      padding-top: 20px;
+      background-color: #a2ebf2;
+      height: 100%;
+    }
+
+    .sidenavr {
+      padding-top: 20px;
+      background-color: #519696;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenavl {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+    .WebInfo {
+  font-family: Bitter,Georgia,"Times New Roman",Times,serif;
+  font-size: 2em; color: white;
+} 
+    .smheader {
+    font-family: Bitter,Georgia,"Times New Roman",Times,serif;
+    font-size: 2em;
+    }
+    .mmheader {
+    font-family: Bitter,Georgia,"Times New Roman",Times,serif;
+    font-size: 1em;
+    }
+    .DtlInfo {
+  font-family: Bitter,Georgia,"Times New Roman",Times,serif;
+  font-size: 1em; line-height: 200%;
+  color: #72643f;
+}
+
+body{   
+  background-color: lavender;
+}
+
+.back-image {
+  border: 0px solid black;
+  padding: 5px;
+  background: url('images/ERLY.jpg');
+  background-position: center top; 
+  background-repeat: no-repeat; 
+  background-size: 80px 80px;
+  background-blend-mode: screen;
+} 
+
+.back-banner {
+  border: 0px solid black;
+  padding: 5px;
+  background: url('images/banner3.jpg');
+  background-repeat: no-repeat; 
+  background-size: 1500px 100px;
+  background-blend-mode: screen;
+} 
+
+</style>
